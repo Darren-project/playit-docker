@@ -1,3 +1,3 @@
 # playit-docker
 
-Clone and copy existing playit.toml file to repo root before build
+Mount a playit config file at /etc/service/playit/playit.toml
