@@ -9,7 +9,6 @@ RUN wget https://github.com/playit-cloud/playit-agent/releases/download/v0.9.3/p
 RUN mkdir /etc/service/playit
 RUN chmod +x playit.sh
 ADD ./playit.sh /etc/service/playit/run
-ADD ./playit.toml /etc/service/playit/playit.toml
 RUN chmod +x /etc/service/playit/run
 RUN chmod +x /app/playit-0.9.3
 CMD ["/sbin/my_init"]
